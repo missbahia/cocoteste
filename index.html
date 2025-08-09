@@ -971,7 +971,19 @@
     });
     categoriesDiv.style.display = 'none';
     platsSection.classList.add('active');
+
+
+ setTimeout(() => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+}, 50);
   }
+
+
+
+
 
   // Clic sur une catégorie
   categoriesDiv.addEventListener('click', e => {
@@ -1019,8 +1031,3 @@
 
 </body>
 </html>
-
-
-
-
-
